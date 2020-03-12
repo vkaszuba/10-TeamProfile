@@ -5,7 +5,7 @@ const inquirer = require("inquirer");
 const path = require("path");
 const fs = require("fs");
 
-const outputPath = path.resolve(__dirname, "output", "team.html");
+const outputPath = path.resolve(__dirname, "team.html");
 
 const render = require("./lib/htmlRenderer");
 
@@ -238,11 +238,7 @@ function appMenu() {
   function buildTeam() {
     fs.writeFileSync(outputPath, render(teamMembers), "utf-8");
   }
-
   createManager();
-
 }
 
-
 appMenu();
-
