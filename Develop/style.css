@@ -1,0 +1,19 @@
+body {
+  background-color: rgb(65, 65, 65);
+}
+h1 {
+  font-size: 80px;
+  color: white;
+}
+h2 {
+  color: rgb(109, 42, 42);
+  font-size: 40px;
+}
+.jumbotron {
+  background-color: rgb(109, 42, 42);
+  padding: 40px;
+}
+.employee-card{
+  margin: 30px;
+  border-radius: 15px;
+}
